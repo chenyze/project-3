@@ -96,15 +96,15 @@ Even after hyper-tuning, all models still had an overfitting problem, but I foun
 
 CountVectorizer hyper-parameters:
 ````
-* cvec__max_features': 1500
-* 'cvec__min_df': 2 
-* 'cvec__ngram_range': (1, 1)
+'cvec__max_features': 1500
+'cvec__min_df': 2 
+'cvec__ngram_range': (1, 1)
 ````
 
 Multinomial Naive Bayes hyper-parameters:
 ````
-* 'alpha': 0.5
-* 'fit_prior': False
+'alpha': 0.5
+'fit_prior': False
 ````
 
 * With CVEC, hyper-tuned LR and MNB tend to overfit to a smaller extent than their respective models with default hyper-parameters.
