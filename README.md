@@ -23,9 +23,11 @@ I identified r/whisky and r/wine as my two topics of interest because the two to
 ### Business relevance
 
 **Search Engine Optimization**
+
 Wine and whisky are the kinds of luxury class products that can feel intimidating because the domains are often thought of as requiring a lot of specialised knowledge and vocabulary. And while such jargon certainly show up a lot in brochures and specialist magazines, the reality is that the terms people use to talk about whiskies/wines in casual conversation tends to be more down-to-earth, comprehensible. And now with drinks companies also increasingly looking at e-commerce, knowing the everyday words that people use to discuss or search about whiskies/wines can help these companies improve their SEO game. 
 
 **Email filtering**
+
 For some reason, many smaller retailers in the alcohol sector are either very resistant against or slow in launching full-fledge e-commerce sites. Instead, their idea of retailing online is often uploading the product catalogue online in PDF form, such that prospective customers will have to email them to make enquiries or place purchase orders. This in turn means that when an email lands in the company's enquiries/sales inbox, someone will have to direct the email to the correct category manager. A good classification system would therefore help to automate and reduce much of this grunt work. 
 
 
@@ -132,6 +134,4 @@ With supervised machine learning, there's always something else that can be twea
 * Create my own list of stop words, to remove not-useful words such as 'bottle', 'taste'. Given that TF-IDF penalizes words with high frequencies, this might not matter. Cvec does not penalize these words by default, and I've also avoided setting `max_depth` for cvec, but setting a high `max_depth` might also serve to remove these words.
 * Hyper-tune Random Forest Classifier again without 'None' as an option to see if it reduces overfitting. 
 
-
-### Conclusion and Recommendations
 
